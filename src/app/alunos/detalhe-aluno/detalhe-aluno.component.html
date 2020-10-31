@@ -1,0 +1,129 @@
+<div>
+    <button type="button" action="#" style="float: right;" class="btn btn-secondary">
+        Bloquear <span class="glyphicon glyphicon-minus-sign"></span>
+    </button>
+    <button type="button" (click)="open()" style="float: right;margin-right: 20px;" class="btn btn-primary">
+        Editar <span class="glyphicon glyphicon-plus-sign"></span>
+    </button>
+    <button type="button" (click)="open()" style="float: right;margin-right: 25px;" class="btn btn-success">
+        Notas <span class="glyphicon glyphicon-plus-sign"></span>
+    </button>
+</div>
+<br />
+<hr class="linha2">
+<br />
+<div id="bodyPrincipal" style="width: 100%;">
+    <h5>Detalhe Aluno</h5>
+    <!-- 
+<thead>
+        <tr>
+            <th>#</th>
+            <th (click)="sort('nome')">
+                Nome
+                <span *ngIf="key =='nome'">{{reverse ? '▲' : '▼'}}</span>
+            </th>
+            <th (click)="sort('endereco')">
+                Endereço
+                <span *ngIf="key =='endereco'">{{reverse ? '▲' : '▼'}}</span>
+            </th>
+        </tr>
+    </thead> -->
+
+    <div id="detalhePrincipal">
+        <div id="detalhe1">
+            <img src="assets/img/people-icon.jpg" width="90%">
+        </div>
+        <div id="detalhe2">
+            <div id="divInterna">Aluno
+                <div>Camille</div>
+            </div>
+            <div id="divInterna"> Fornecedor / Contrato
+                <div>Altran do Brasil</div>
+            </div>
+            <div id="divInterna">Perfil
+                <div>Scrum</div>
+            </div>
+            <div id="divInterna">Tipo de Acesso
+                <div>Fisico</div>
+            </div>
+        </div>
+        <div id="detalhe3">
+            <div id="divInterna">CPF
+                <div>111111</div>
+            </div>
+            <div id="divInterna">Local de Trabalho
+                <div>GF1</div>
+            </div>
+            <div id="divInterna">Área
+                <div>Marketing</div>
+            </div>
+            <div id="divInterna">PRJ
+                <div>PRJ-XXXX</div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />
+    <h5 style="margin-left: auto;">ALOCAÇÕES, AUSÊNCIAS E HISTÓRICO</h5>
+    <div id="historicoPrincipal" style="font-size: small;">
+        <div id="historico1">
+            <div id="divInterna">Período de Alocação
+                <div>01/01/1900 a 01/01/1900</div>
+            </div>
+            <div id="divInterna"> Ausência
+                <div>Casamento</div>
+            </div>
+        </div>
+        <div id="historico2">
+            <div id="divInterna">
+                <img src="assets/img/img_historico.png" style="width: 60px;margin-left: 18px;" alt="">
+            </div>
+            <div id="divInterna">
+                <img src="assets/img/img_historico.png" style="width: 60px;margin-left: 18px;" alt="">
+            </div>
+        </div>
+        <div id="historico3">
+            <div id="divInterna"><b>De:</b> 01/01/1900
+                <div><b>Até:</b> 01/01/1900</div>
+            </div>
+            <div id="divInterna"><b>De:</b> 01/01/1900
+                <div><b>Até:</b> 01/01/1900</div>
+            </div>
+        </div>
+        <div id="historico4">
+            <div id="p">350
+            </div>
+            <div id="p" style=" margin-top: 2px;">20</div>
+        </div>
+    </div>
+    <br /><br /><br /><br />
+    <hr>
+    <div>
+        <h5 style="margin-left: auto;position: absolute; margin-top: 35px;">REPRESENTANTES DA EMPRESA</h5>
+        <button type="button" (click)="open()" style="margin-left: 855px; margin-top: 20px;" class="btn btn-primary">
+            Novo
+            Representante
+        </button>
+    </div>
+    <br />
+    <div id="historicoPrincipal" style="font-size: small;">
+        <div id="representante1">
+            <div id="divInterna"><b>Representante da Empresa</b>
+                <div>Lorem Sprum</div>
+            </div>
+        </div>
+        <div id="representante2">
+            <div id="divInterna"><b>Telefone Representante</b>>
+                <div>(11) 11111-1111</div>
+            </div>
+        </div>
+        <div id="representante3">
+            <div id="divInterna"><b>E-mail Representante</b>>
+                <div>lorem@altran.com.br</div>
+            </div>
+        </div>
+        <div id="representante4" style="text-align: center; border-top: groove; border-left: groove;">
+            <img src="assets/img/img_lixo.png" style="width:auto ;margin-left: 18px;" alt="">
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />
+</div>

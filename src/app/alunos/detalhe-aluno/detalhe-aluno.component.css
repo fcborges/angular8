@@ -1,0 +1,135 @@
+hr.linha {
+    border: 1px solid grey;
+}
+
+hr.linha2 {
+    border: 1px solid darkgreen;
+}
+
+:host table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 120px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blanchedalmond;
+    background-color: #064288;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h5 {
+    margin-left: 200px;
+}
+
+#divInterna {
+    border-style: hidden;
+    border-top: groove;
+}
+
+#detalhePrincipal {
+    font-size: small;
+}
+
+#detalhe1 {
+    position: relative;
+    width: 200px;
+    height: 220px;
+    float: left;
+}
+
+#detalhe2 {
+    position: relative;
+    width: 650px;
+    height: 220px;
+    float: left;
+}
+
+#detalhe3 {
+    position: relative;
+    width: 200px;
+    /* height: 220px; */
+    float: left;
+    border-left: groove;
+
+}
+
+#historicoPrincipal{
+    font-size: small;
+}
+
+#historico1 {
+    position: relative;
+    width: 600px;
+    float: left;
+    border-right: groove;
+}
+
+#historico2 {
+    position: relative;
+    width: 100px;
+    float: left;
+    border-right: groove;
+}
+
+#historico3 {
+    width: 160px;
+    float: left;
+}
+
+#historico4 {
+    width: 150px;
+    float: left;
+}
+
+#p{
+    font-size: x-large;
+    text-align: center;   
+    border-top: groove;
+    border-left: groove;
+}
+
+#representante1{
+    position: relative;
+    width: 500px;
+    float: left;
+    border-right: groove;
+}
+
+#representante2{
+    position: relative;
+    width: 300px;
+    float: left;
+    border-right: groove;
+}
+
+#representante3{
+    width: 160px;
+    float: left;
+}
+
+#representante4{
+    /* width: 150px; */
+    float: left;
+}
+
+
+
+
